@@ -84,15 +84,14 @@ const Profile = () => {
                 <div
                     style={cardStyle}
                     // onMouseEnter={(e) => (e.currentTarget.style = { ...cardStyle, ...cardHoverStyle })}
-                    // onMouseLeave={(e) => (e.currentTarget.style = cardStyle)}
-                >
-                    <h2 style={cardHeaderStyle}>Digital Certificates</h2>
-                    <p style={cardTextStyle}>- Certificate: React Basics</p>
-                    <p style={cardTextStyle}>- Certificate: Advanced JavaScript</p>
-                    <p style={cardTextStyle}>- Certificate: UI/UX Design</p>
-                </div>
-                <div
-                    style={cardStyle}
+                    >
+                        <h2 style={cardHeaderStyle}>Digital Certificates</h2>
+                        <p style={cardTextStyle}>- Certificate: React Basics</p>
+                        <p style={cardTextStyle}>- Certificate: Advanced JavaScript</p>
+                        <p style={cardTextStyle}>- Certificate: UI/UX Design</p>
+                    </div>
+                    <div
+                        style={cardStyle}
                     // onMouseEnter={(e) => (e.currentTarget.style = { ...cardStyle, ...cardHoverStyle })}
                     // onMouseLeave={(e) => (e.currentTarget.style = cardStyle)}
                     

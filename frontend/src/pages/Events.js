@@ -130,7 +130,7 @@ const Events = () => {
         };
         
         fetchEvents();
-    }, []);
+    }, [staticEvents]);
 
     const handleRegister = (eventId) => {
         setSelectedEvent(eventId);
